@@ -15,7 +15,7 @@ const BlogPage = () => {
 
     useEffect(() => {
       const fetchBlogs = async() => {
-        let URL = `http://localhost:5000/blogs?page=${currentPage}&limit=${pageSize}`
+        let URL = `https://blog-site-server-oraj.onrender.com/blogs?page=${currentPage}&limit=${pageSize}`
 
         if(selectedCategory){
           URL += `?category=${selectedCategory}`

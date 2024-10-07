@@ -6,7 +6,6 @@ import { FaClock } from 'react-icons/fa6'
 
 const SingleBlog = () => {
     const data = useLoaderData()
-    console.log(data)
 
     const {id,title,image,category,author,published_date,reading_time,content} = data[0]
   return (

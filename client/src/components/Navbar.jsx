@@ -23,7 +23,6 @@ const Navbar = () => {
         setIsModalOpen(false)
     }
 
-    console.log(isModalOpen)
 
     //NavItems
     const navItems = [
